@@ -1,6 +1,5 @@
 from objetos import *
 
-
 print("-----------------------------------------")
 print("			R e g i s t r a t e				")
 print("-----------------------------------------")
@@ -9,16 +8,13 @@ print("\n1)Usuario común\n2)Administrador\n9)Salir")
 
 
 while True:
-	try:
-		opcion = int(input("\nElige una opción: "))
-		break
-	except ValueError:
-		print ("El valor es invalido, intenta de nuevo")
-		
 
-
-
-while True:
+	while True:
+		try:
+			opcion = int(input("\nElige una opción: "))
+			break
+		except ValueError:
+			print ("El valor es invalido, intenta de nuevo")
 
 	if opcion == 1:
 
